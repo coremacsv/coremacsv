@@ -17,9 +17,9 @@ Currently studying Data Science & Artificial Intelligence at **Lumsa University*
 
 ## 🐍 Un anno di contributi, mangiato da un serpente
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake.svg" />
-  <img alt="Il serpente che mangia i contributi" src="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/snake.svg" />
+  <img alt="Il serpente che mangia i contributi" src="https://raw.githubusercontent.com/coremacsv/coremacsv/output/snake.svg" />
 </picture>
 
 ## 🛠️ I miei strumenti
