@@ -1,0 +1,47 @@
+name: Aggiorna profilo
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # ogni notte alle 03:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Genera il serpente che mangia i contributi
+        uses: Platane/snk@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Pubblica il serpente sul branch "output"
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Aggiorna le statistiche nel README
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node .github/scripts/update-stats.js
+
+      - name: Pubblica il README se è cambiato
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Nessuna novità da pubblicare."
+          else
+            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -m "Aggiorna le statistiche del profilo"
+            git push
+          fi

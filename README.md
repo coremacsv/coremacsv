@@ -15,13 +15,26 @@ Currently studying Data Science & Artificial Intelligence at **Lumsa University*
 ![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX Studio](https://img.shields.io/badge/DAX_Studio-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=coremacsv&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=coremacsv&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=coremacsv&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 🐍 Un anno di contributi, mangiato da un serpente
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake.svg" />
+  <img alt="Il serpente che mangia i contributi" src="https://raw.githubusercontent.com/coremacsv/coremacsv/output/dist/snake.svg" />
+</picture>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=coremacsv&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## 🛠️ I miei strumenti
+- **[Fulmine](https://github.com/coremacsv/fulmine)** — piano energetico, GPU, priorità dei processi: tutti gli interventi che di solito si fanno a mano, uno alla volta.
+- **[Sentinella](https://github.com/coremacsv/sentinella)** — diagnosi di sicurezza e salute per Windows. Doppio clic, scegli quanto a fondo, leggi il verdetto.
+- **[Varco](https://github.com/coremacsv/varco)** — quanto è sana e sicura la tua rete, più un modo comodo per navigare in privato.
+- **[Zavorra](https://github.com/coremacsv/zavorra)** — trova cosa parte da solo a ogni accensione del PC e non serve a niente.
+
+## 📈 Live
+<!--STATS:START-->
+**16** progetti pubblici · **0** stelle totali
+Ultimo aggiornamento: **knowledge-base-starter**, 5 giorni fa
+
+<sub>Si aggiorna da solo ogni notte, niente da toccare.</sub>
+<!--STATS:END-->
 
 ---
 [![](https://visitcount.itsvg.in/api?id=coremacsv&icon=0&color=1)](https://visitcount.itsvg.in)
