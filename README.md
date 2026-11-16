@@ -31,7 +31,7 @@ Currently studying Data Science & Artificial Intelligence at **Lumsa University*
 ## 📈 Live
 <!--STATS:START-->
 **16** progetti pubblici · **0** stelle totali
-Ultimo aggiornamento: **coremacsv**, oggi
+Ultimo aggiornamento: **coremacsv**, ieri
 
 <sub>Si aggiorna da solo ogni notte, niente da toccare.</sub>
 <!--STATS:END-->
